@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+}
+body header a img{
+    width: 136px;
+    padding: 10px;
+    margin-left: 20px;
+}
+body header{
+    background-color: rgba(0,123,191,1);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+body header div{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+body header div p{
+    font-size: 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    padding: 20px 5px 10px 5px;
+    border-bottom: 10px solid white;
+}
+body header div img{
+    height: 30px;
+    margin: 10px;
+}
+
+.background-img{
+    background-image: url("background-img.jpg");
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.background-img h1{
+    margin: 0 auto 70px auto;
+    font-size: 34px;
+    width: 1024px;
+    text-align: center;
+    color: white;
+}
+.background-img h1 span{
+    color: yellow;
+}
+.container-desafio{
+    text-align: center;
+    padding-top: 30px;
+    background-color: #eee;
+}
+.container-desafio h2{
+    max-width: 1024px;
+    color: #55338a;
+    font-size: 45px;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    
+}
+.container-desafio p{
+    max-width: 1024px;
+    margin: 0 auto;
+    line-height: 25px;
+    color: black;
+    font-size: 14px;
+    
+}
+.container-desafio p:nth-of-type(2){
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container-desafio p:nth-of-type(4){
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.container-desafio p:nth-of-type(5){
+    border-bottom: 3px solid rgba(0,123,191,1);
+    padding-bottom: 50px
+}
+.container-carrosel-img{
+    background-color: #eee;
+    text-align: center;
+}
+.container-carrosel-img img{
+    width: 379px;
+    margin: 40px auto;
+}
+.background-vagas{
+  background-image: url("background-img.jpg");
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.vagas{
+    background-color: #eee;
+    padding-bottom: 30px;
+}
+.background-vagas h2{
+    font-size: 28px;
+    color: white;
+    margin: 0 auto;
+}
+.container-vagas h2{
+    font-size: 24px;
+    text-align: center;
+    margin: 20px auto;
+    color: #484292;
+    
+}
+.container-vagas div{
+    max-width: 900px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.container-vagas div p{
+    font-size: 19px;
+    color: #00A0C6;
+    font-weight: bold;
+    text-align: center;
+    width: 70%;
+}
+.container-vagas div a{
+    text-decoration: none;
+    background-color: #007BBF;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    border-radius: 2px;
+}
+.banco-de-vagas{
+    background-color: #eee;
+}
+.banco-de-vagas p{
+    max-width: 1024px;
+    font-size: 15px;
+    margin: 50px auto; 
+}
+.botao-curriculo {
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+    background-color: #007BBF;
+    height: 30px;
+    width: 350px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+.email{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #484292;
+
+}
+.email p{
+    margin: 0;
+    display: inline-block;
+    border-left: 2px solid #484292;
+    padding-left: 5px;
+
+}
